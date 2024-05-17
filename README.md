@@ -14,15 +14,20 @@ Before running the script, make sure you have the following prerequisites instal
 
 1. Clone the repository:
 
-    `git clone https://github.com/zubairjammu786/decrypt-chrome-passwords-all-users.git`
-   
+   `git clone https://github.com/zubairjammu786/decrypt-chrome-passwords-all-users.git`
+
 2. Navigate to the repository
 
-    `cd decrypt-chrome-passwords-all-users`
+   `cd decrypt-chrome-passwords-all-users`
 
 3. Run the script:
 
    `python decrypt_chrome_passwords.py`
+
+## Convert To Windows EXE
+
+You can use [pyinstaller](https://pypi.org/project/pyinstaller/) or [auto-py-to-exe](https://pypi.org/project/auto-py-to-exe/).  
+This will make it possible to use with BadUSB.
 
 ## Features
 
@@ -31,6 +36,7 @@ Store decrypted passwords in separate CSV files for each user.
 Retrieve encryption keys from the Local State file.
 
 ## Support the Developer
+
 You can buy me a coffee [Here](https://www.buymeacoffee.com/zubairjammu)
 
 ## Disclaimer
@@ -39,5 +45,3 @@ You can buy me a coffee [Here](https://www.buymeacoffee.com/zubairjammu)
 - Users are advised to use this script/tool in compliance with all applicable laws, regulations, and ethical standards. Any actions and consequences resulting from the use of this script/tool are the sole responsibility of the user.
 - By using this script/tool, you agree that the developer is not liable for any harm or legal consequences arising from its use. If you do not agree with these terms, do not use this script/tool.
 - This script/tool is not intended for any malicious purposes, and the developer encourages responsible and ethical use of technology.
-
-
